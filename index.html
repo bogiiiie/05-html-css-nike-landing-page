@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/WebPage">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Nike Air Max Plus – Engineered for Performance, Designed for Style. Explore features, colorways, tech specs, and real athlete testimonials.">
+    <meta name="keywords"
+        content="Nike, Air Max, Sneakers, Shoes, Athletic Footwear, Sportswear, Running Shoes, Nike Philippines">
+    <meta name="author" content="Stephen William G. De Jesus">
+
+    <!-- ARIA Awareness Meta (non-standard) -->
+    <meta name="accessibility"
+        content="Uses semantic landmarks like header, nav, main, and footer with ARIA roles for accessibility support.">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/nike-ico.png" type="image/png">
+    <title>Nike Landing Page</title>
+</head>
+
+<body>
+
+    <header class="site-header" role="banner">
+        <div class="wrapper header-wrapper">
+            <img src="images/nike-logo.svg" alt="Nike Check Logo" class="logo">
+
+            <nav role="navigation" id="menuToggle">
+                <input type="checkbox" id="menuCheckbox" />
+                <label for="menuCheckbox" id="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#colorways" class="nav-link">Colorways</a></li>
+                    <li><a href="#technology" class="nav-link">Tech Specs</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                </ul>
+            </nav>
+
+
+            <nav class="main-nav" role="navigation" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#colorways" class="nav-link">Colorways</a></li>
+                    <li><a href="#technology" class="nav-link">Tech Specs</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                </ul>
+            </nav>
+
+            <a href="https://www.nike.com/ph/" target="_blank" class="cart-icon" aria-label="Shopping cart">
+                <span class="material-symbols-outlined" aria-hidden="true">local_mall</span>
+            </a>
+        </div>
+    </header>
+
+    <main role="main">
+        <section id="hero" class="hero-section" aria-labelledby="hero-title">
+            <div class="wrapper hero-wrapper">
+                <div class="hero-text">
+                    <h1 class="hero-title" id="hero-title">
+                        <span>Nike Air</span>
+                        <span>Max Plus</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        <span>Engineered for Performance.</span>
+                        <span>Designed for Style.</span>
+                    </p>
+                    <div class="hero-buttons">
+                        <a class="shop-btn" aria-label="Shop Now" role="button" href="https://www.nike.com/ph/w/air-max-plus-ahvdn?q=air%20max%20plus" target="_blank">Shop Now</a>
+                        <a class="explore-btn" aria-label="Explore more features" role="button" href="https://www.nike.com/ph/w/best-76m50" target="_blank">Explore</a>
+                    </div>
+                </div>
+                <img src="images/nike-air-max-plus-orange-and-white-removebg.png"
+                    alt="Nike Air Max Plus Orange and White" class="hero-image">
+            </div>
+        </section>
+
+        <section id="features" class="features-section" aria-labelledby="features-title">
+            <div class="wrapper features-wrapper">
+                <h2 class="section-title" id="features-title">Engineered Excellence</h2>
+                <div class="features-grid">
+                    <div class="card feature-card" role="region" aria-labelledby="feature1">
+                        <div class="feature-icon" aria-hidden="true">
+                            <span class="material-symbols-outlined">bubble_chart</span>
+                        </div>
+                        <h3 class="feature-title" id="feature1">Lightweight Cushioning</h3>
+                        <p class="feature-desc">Ultra-responsive foam delivers incredible lightweight comfort with every
+                            step.</p>
+                    </div>
+
+                    <div class="card feature-card" role="region" aria-labelledby="feature2">
+                        <div class="feature-icon" aria-hidden="true">
+                            <span class="material-symbols-outlined">air</span>
+                        </div>
+                        <h3 class="feature-title" id="feature2">Breathable Material</h3>
+                        <p class="feature-desc">Engineered mesh upper provides targeted breathability and strategic
+                            support.</p>
+                    </div>
+
+                    <div class="card feature-card" role="region" aria-labelledby="feature3">
+                        <div class="feature-icon" aria-hidden="true">
+                            <span class="material-symbols-outlined">footprint</span>
+                        </div>
+                        <h3 class="feature-title" id="feature3">Durable Sole</h3>
+                        <p class="feature-desc">Rubber outsole delivers exceptional traction and durability on all
+                            terrains.</p>
+                    </div>
+
+                    <div class="card feature-card" role="region" aria-labelledby="feature4">
+                        <div class="feature-icon" aria-hidden="true">
+                            <span class="material-symbols-outlined">design_services</span>
+                        </div>
+                        <h3 class="feature-title" id="feature4">Sleek Modern Design</h3>
+                        <p class="feature-desc">Cutting-edge aesthetics with premium materials for a bold, contemporary
+                            look.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="colorways" class="colorways-section" aria-labelledby="colorways-title">
+            <div class="wrapper colorways-wrapper">
+                <h2 class="section-title" id="colorways-title">Style Palette</h2>
+                <div class="colorways-grid">
+
+                    <div class="card colorway-card" role="region" aria-label="Nike Air Max Plus Black colorway">
+                        <div class="colorway-image-wrapper" role="img"
+                            aria-label="Image of Nike Air Max Plus Black colorway">
+                            <img src="images/nike-air-max-plus-all-black-removebg.png" alt="Nike Air Max Plus Black"
+                                class="colorway-image">
+                        </div>
+                        <div class="colorway-info">
+                            <h3 class="shoe-name">Nike Air Max Plus</h3>
+                            <p class="colorway">Black</p>
+                        </div>
+                        <div class="colorway-purchase">
+                            <p class="price">&#8369; 8,595</p>
+                            <a class="btn-add-cart" aria-label="Add Black Nike Air Max Plus to cart" role="button" href="https://www.nike.com/ph/t/air-max-plus-shoes-W1v567/DM2362-002" target="_blank">
+                                <span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span>
+                                <span>Add</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card colorway-card" role="region"
+                        aria-label="Nike Air Max Plus Red White Black colorway">
+                        <div class="colorway-image-wrapper" role="img"
+                            aria-label="Image of Nike Air Max Plus Red White Black colorway">
+                            <img src="images/nike-air-max-plus-red-white-black-removebg.png"
+                                alt="Nike Air Max Plus Red White Black" class="colorway-image">
+                        </div>
+                        <div class="colorway-info">
+                            <h3 class="shoe-name">Nike Air Max Plus</h3>
+                            <p class="colorway">Pure Platinum/University Red/Black/White</p>
+                        </div>
+                        <div class="colorway-purchase">
+                            <p class="price">&#8369; 8,595</p>
+                            <a class="btn-add-cart" aria-label="Add Red White Black Nike Air Max Plus to cart" role="button" href="https://www.nike.com/ph/t/air-max-plus-shoes-04K813/DM0032-017" target="_blank">
+                                <span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span>
+                                <span>Add</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card colorway-card" role="region" aria-label="Nike Air Max Plus White colorway">
+                        <div class="colorway-image-wrapper" role="img"
+                            aria-label="Image of Nike Air Max Plus White colorway">
+                            <img src="images/nike-air-max-plus-all-white-removebg.png" alt="Nike Air Max Plus White"
+                                class="colorway-image">
+                        </div>
+                        <div class="colorway-info">
+                            <h3 class="shoe-name">Nike Air Max Plus</h3>
+                            <p class="colorway">White/Black/Cool Grey/White</p>
+                        </div>
+                        <div class="colorway-purchase">
+                            <p class="price">&#8369; 5,669</p>
+                            <a class="btn-add-cart" aria-label="Add White Nike Air Max Plus to cart" role="button" href="https://www.nike.com/ph/t/air-max-plus-shoes-Z0D37G/604133-139" target="_blank">
+                                <span class="material-symbols-outlined" aria-hidden="true">add_shopping_cart</span>
+                                <span>Add</span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="technology" class="technology-section" aria-labelledby="technology-title">
+            <div class="wrapper technology-wrapper">
+                <img src="images/nike-air-max-plus-gray-withbg.png" alt="Nike Air Max Plus in Gray" class="tech-image">
+                <div class="tech-content">
+                    <h2 class="section-title" id="technology-title">Defy Gravity</h2>
+                    <p class="tech-desc">The Nike Air Max Plus represents the perfect fusion of athletic performance and
+                        street-ready style. Featuring our revolutionary Air cushioning technology, these sneakers
+                        deliver exceptional impact protection and all-day comfort.</p>
+                    <p class="tech-desc">The engineered mesh upper adapts to your foot while providing crucial
+                        breathability during intense activities. With a durable rubber outsole that offers superior
+                        traction on various surfaces, these shoes are designed to keep you moving confidently, whether
+                        you're training or making a style statement.</p>
+                    <div class="tech-specs" role="list">
+                        <div class="spec-card" role="listitem">
+                            <p class="spec-value">360°</p>
+                            <p class="spec-label">Air Cushioning</p>
+                        </div>
+                        <div class="spec-card" role="listitem">
+                            <p class="spec-value">12mm</p>
+                            <p class="spec-label">Heel Drop</p>
+                        </div>
+                        <div class="spec-card" role="listitem">
+                            <p class="spec-value">9.5oz</p>
+                            <p class="spec-label">Weight</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section" aria-labelledby="testimonials-title">
+            <div class="wrapper testimonials-wrapper">
+                <h2 class="section-title" id="testimonials-title">What Athletes Say</h2>
+                <div class="testimonial-grid">
+                    <div class="card testimonial-card" role="region" aria-label="Testimonial by Michael T.">
+                        <div class="testimonial-header">
+                            <img src="images/michael-t.jpg" alt="Michael T." width="100" class="testimonial-avatar">
+                            <div class="testimonial-meta">
+                                <h4 class="customer-name">Michael T.</h4>
+                                <div class="stars" role="img" aria-label="5 out of 5 stars">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"These are the most comfortable running shoes I've ever owned..."
+                        </p>
+                    </div>
+
+                    <div class="card testimonial-card" role="region" aria-label="Testimonial by Sarah J.">
+                        <div class="testimonial-header">
+                            <img src="images/sarah-j.jpg" alt="Sarah J." width="100" class="testimonial-avatar">
+                            <div class="testimonial-meta">
+                                <h4 class="customer-name">Sarah J.</h4>
+                                <div class="stars" role="img" aria-label="4.5 out of 5 stars">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"I'm a fitness instructor and I need shoes that can handle multiple
+                            workout styles..."</p>
+                    </div>
+
+                    <div class="card testimonial-card" role="region" aria-label="Testimonial by David R.">
+                        <div class="testimonial-header">
+                            <img src="images/david-r.jpg" alt="David R." width="100" class="testimonial-avatar">
+                            <div class="testimonial-meta">
+                                <h4 class="customer-name">David R.</h4>
+                                <div class="stars" role="img" aria-label="5 out of 5 stars">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="testimonial-text">"Not only are these the best performing athletic shoes I've
+                            owned..."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="cta-section" aria-labelledby="cta-title">
+            <div class="wrapper cta-wrapper">
+                <div class="cta-header" role="group" aria-labelledby="cta-title">
+                    <h2 class="section-title" id="cta-title">Step into the Future</h2>
+                    <p class="cta-subtitle">Experience the perfect blend of performance, comfort, and style with the
+                        Nike
+                        Air
+                        Max Plus.</p>
+                </div>
+                <div class="cta-buttons">
+                    <a class="buy-btn" aria-label="Buy now" role="button" href="https://www.nike.com/ph/w/air-max-plus-ahvdn?q=air%20max%20plus" target="_blank">Buy Now</a>
+                    <a class="explore-btn" aria-label="Explore more options" role="button" href="https://www.nike.com/ph/w/best-76m50" target="_blank">Explore More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="wrapper footer-wrapper">
+            <p class="logo-text" role="img" aria-label="Nike Text Logo">NIKE</p>
+            <p class="footer-text">
+                © 2023 Nike. Made by
+                <a href="https://www.facebook.com/stephenwilliam.dejesus.5/" target="_blank" class="footer-author-link"
+                    aria-label="Visit Stephen William G. De Jesus' personal or portfolio website">
+                    Stephen William G. De Jesus
+                </a>
+            </p>
+
+            <nav class="social-links" aria-label="Social media links">
+                <ul class="footer-icons">
+                    <li><a href="https://www.facebook.com/nike/" target="_blank" aria-label="Visit our Facebook page"><i class="bi bi-meta"></i></a></li>
+                    <li><a href="https://x.com/Nike" target="_blank" aria-label="Visit our Twitter page"><i class="bi bi-twitter-x"></i></a></li>
+                    <li><a href="https://www.instagram.com/nike/" target="_blank" aria-label="Visit our Instagram page"><i class="bi bi-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/user/nike" target="_blank" aria-label="Visit our YouTube channel"><i class="bi bi-youtube"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
